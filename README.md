@@ -35,3 +35,33 @@ Movies_Recommendation/
 │-- tmdb_5000_credits.csv      # TMDB Credits dataset
 │-- .gitignore                 # Files excluded from Version Control
 └── README.md                  # Project documentation
+
+## 🚀 Getting Started
+
+### 1. Prerequisites
+Ensure you have Python 3.8+ installed on your system.
+
+### 2. Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Insha-Rani/movie-recommender-system.git)
+   cd Movies_Recommendation
+Install required packages:
+
+Bash
+pip install streamlit pandas requests
+Get a TMDB API Key:
+
+Register at TMDB.
+
+Generate your API key from Settings → API.
+
+Replace API_KEY in app.py with your key.
+
+Run the Streamlit application:
+
+Bash
+streamlit run app.py
+📜 License
+This project is open-source and available under the MIT License.
