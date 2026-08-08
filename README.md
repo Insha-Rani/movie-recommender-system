@@ -8,7 +8,8 @@ The application recommends similar movies based on movie features and uses the T
 
 ## 🚀 Live Demo
 
-[Click here to view the live application](YOUR_STREAMLIT_APP_LINK)
+
+[🎬 Try the Movie Recommendation System](https://movie-recommender-system-cujliqbs3wyyzkjwmwrrjf.streamlit.app/)
 
 ## 📌 Project Overview
 
@@ -70,14 +71,19 @@ Movie-Recommendation-System/
 │   └── movie-details.png
 │
 └── assets/
-🖥️ Application Screenshots
-Home Page
-![Home Page](images/home.png)
 
-Movie Recommendations
+## 🖥️ Application Screenshots
+
+### Home Page
+
+![Home Page](images/Home.png)
+
+### Movie Recommendations
+
 ![Movie Recommendations](images/Recommendation.png)
 
-Movie Details
+### Movie Details
+
 ![Movie Details](images/movie-details.png)
 
 ⚙️ Installation

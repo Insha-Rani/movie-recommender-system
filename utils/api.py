@@ -1,11 +1,14 @@
-import requests
 import os
+import requests
+import streamlit as st
 from dotenv import load_dotenv
 
 load_dotenv()
 
 API_KEY = os.getenv("API_KEY")
 
+if not API_KEY:
+    API_KEY = st.secrets["API_KEY"] 
 
 # 1. Safe Poster Fetching
 def fetch_poster(movie_id):
